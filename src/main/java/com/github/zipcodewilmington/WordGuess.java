@@ -10,15 +10,11 @@ import java.util.Random;
 
 // Ali
 public class WordGuess {
-    public String randomWordList(){
+    public String randomWordList() {
 
-        String[] arr={"lion", "cat", "wool", "dog", "sheep"};
-        Random r=new Random();
-        int randomNumber=r.nextInt(arr.length);
-        System.out.println(arr[randomNumber]);
-        String hi =arr[randomNumber];
+        String[] arr = {"lion", "cat", "wool", "dog", "sheep"};
+        return arr[new Random().nextInt(arr.length)];
 
-        return hi;
     }
 
 
