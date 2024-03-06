@@ -1,8 +1,6 @@
 package com.github.zipcodewilmington;
 
 
-import javax.imageio.metadata.IIOMetadataFormatImpl;
-
 /**
  * @author xt0fer
  * @version 1.0.0
@@ -11,5 +9,6 @@ import javax.imageio.metadata.IIOMetadataFormatImpl;
 
 // Ali
 public class Hangman {
-    
+
+
 }
