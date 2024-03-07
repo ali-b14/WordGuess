@@ -10,15 +10,28 @@ import java.util.Random;
 
 // Ali
 public class WordGuess {
+
+
+    public WordGuess() {
+
+    }
+
+
+    public static void main(String[] args){
+        WordGuess game = new WordGuess();
+        game.runGame();
+    }
+
+
     // instance variables go here
-
     // set up a list (array) of strings of words players could guess
-    String[] words = {"lion", "cat", "wool", "dog", "sheep", "ball", "toy", "candy", "fire"};
+    String[] words = {"lion", "cat", "wool", "dog", "sheep", "ball", "toy", "candy", "fire", "soccer"};
 
-    public void runGame(){
+
+    public static void runGame(){
 //        choose a random word from a list
         random_Num = get_Next_Random_Integer(words.length-1);
-        secret_Word = words[random_Num]; 
+        secret_Word = words[random_Num];
 
 
 //        while (you want to play) { //outer loop
@@ -42,11 +55,63 @@ public class WordGuess {
 //    }
 //    display game over
     }
-    public static void main(String[] args){
-        Wordguess game = new Wordguess();
-        game.runGame();
+
+
+    public static char printArray(char[] a){
+        for (int i = 0; i < ; i++) {
+            System.out.println();
+        }
     }
 
+
+    public static void printAnnounceGame(){
+//        prints a welcome
+    }
+
+
+    public static void printGameOver(){
+//        prints "game over"
+    }
+
+
+    public static void initializeGameState(){
+//        return sets up char[] for secret word and guesses
+    }
+
+
+    public static void getNextGuess(){
+//        returns char from player input;
+    }
+
+
+    public static void isWordGuessed(){
+//        returns booleans;
+    }
+
+
+    public static void askToPlayAgain(){
+//        returns boolean;
+    }
+
+
+    public static void printCurrentState(){
+//        uses printArray to show player where they are at
+    }
+
+
+    public static void processLoopsThruArray(){
+//        process() loops thru the word array, looking for the inputed guess, and replaces the "_" with the guesses char if found
+    }
+
+
+    public static void playerWon(){
+//        prints happy message
+    }
+
+
+    public static void playerLost(){
+//        prints sad message
+    }
 
 }
 
