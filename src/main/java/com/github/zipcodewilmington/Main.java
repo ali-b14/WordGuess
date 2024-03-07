@@ -11,10 +11,12 @@ public class Main {
         System.out.println("Welcome to WordGuess lets play! ");
 
         WordGuess randomWord = new WordGuess();
+
         String wordlist = randomWord.randomWordList();
 
-        System.out.println(randomWordList());
-        pickedWord = WordGuess.randomeWordList;
+        System.out.println(randomWord.randomWordList());
+
+        pickedWord = randomWord.randomWordList();
 
     }
 
